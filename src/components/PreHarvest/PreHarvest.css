@@ -1,0 +1,67 @@
+.container-card{
+    background-color:  #0e101c;;
+    background-size: cover;
+    border-radius: 10px;
+    width:100%;
+    max-width: 500px;
+    font-size: 14px;
+    color:white;
+    padding:10px;
+    margin-left:15px;
+    margin-bottom:10px;
+}
+.heading{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.preHarvest-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.realised-gains {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.realised-gains .amount {
+  font-size: 20px;
+  margin-left: 0.5rem;
+}
+.header{
+     font-weight: 600;
+  color: #c3c3c3;
+  margin-top: 0.5rem;
+}
+
+.bold{
+   font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .preHarvest-header {
+    flex-direction: row;
+    gap: 0.2rem;
+  }
+
+  .realised-gains {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+
+  .realised-gains .amount {
+    font-size: 18px;
+  }
+
+  .container-card {
+    font-size: 13px;
+    padding: 1rem;
+    width:80%;
+  }
+}

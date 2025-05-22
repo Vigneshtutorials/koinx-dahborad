@@ -1,0 +1,40 @@
+.holdings-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e1e2f;
+  color: white;
+  margin:10px;
+}
+
+.holdings-table th,
+.holdings-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+
+.green {
+  color: #4caf50;
+}
+.logo{
+  height: 20px;
+  width: 20px;
+  padding-right: 4px;
+}
+
+.red {
+  color: #f44336;
+}
+.button{
+  background-color: transparent;
+  border: none;
+  border-bottom:1px solid blue;
+  color:blue;
+}
+@media screen and (max-width:768px) {
+  .table-scroll-container {
+  width: 100%;
+  overflow-x: auto;
+}
+  
+}
