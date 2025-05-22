@@ -18,7 +18,7 @@ To get started with the Koinx- Tax Harvesting Application, follow these steps:
 
 ##Mobile UI
 
-`![Mobile UI](https://github.com/Vigneshtutorials/koinx-dahborad/blob/main/Screenshot%202025-05-22%20083600.png)`
+`![Mobile UI](https://github.com/Vigneshtutorials/koinx-dahborad/blob/main/Screenshot%202025-05-22%20083600.png?raw=true)`
 
 `![BigScrren UI](media/images/bigscreen-Ui.png)`
 
